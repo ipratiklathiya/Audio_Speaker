@@ -20,9 +20,17 @@ namespace Audio_Speaker.Controllers
         }
 
         // GET: Speakers
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Speaker.ToListAsync());
+            var Speakers = from m in _context.Speaker
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                Speakers = Speakers.Where(s => s.Name.Contains(searchString));
+            }
+
+            return View(await Speakers.ToListAsync());
         }
 
         // GET: Speakers/Details/5

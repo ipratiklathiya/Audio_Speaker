@@ -38,3 +38,11 @@ I tried solving that error for the following....
 Error Occured and the application was created sucesfully and i found te error and updated the database and migrations
 now i saved the command and commited it to Git....
 Let us build it again and run it !
+
+4:20 AM
+Created the database file and than added
+the search filed editing few file like Index.cshtml
+
+run command....
+update it to github and save the content
+no errors found

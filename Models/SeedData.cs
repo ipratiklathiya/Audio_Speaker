@@ -56,7 +56,7 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "USB, Bluetooth",
                         Company = "Boat India",
-                        Price = 7.99M
+                        Price = 8.99M
                     },
                     new Speaker
                     {
@@ -64,7 +64,7 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "USB Port",
                         Company = "Z Zebra",
-                        Price = 7.99M
+                        Price = 9.99M
                     },
                     new Speaker
                     {
@@ -76,7 +76,7 @@ namespace Audio_Speaker.Models
                     },
                     new Speaker
                     {
-                        Name = "Apple",
+                        Name = "Apple       ",
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "Bluetooth",
                         Company = "Marshalls",
