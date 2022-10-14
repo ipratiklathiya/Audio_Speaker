@@ -18,4 +18,4 @@ namespace Audio_Speaker.Data
             public DbSet<Speaker> Speaker { get; set; }
         }
     }
-}
+

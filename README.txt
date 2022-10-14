@@ -34,3 +34,7 @@ error for the migration was found and the database update was found
 I tried solving that error for the following....
 - run command "Add Migrations InitialCreate -Context AudioSpeakerContext"
 - "Update-Database -Context AudioSpeakerContext"
+
+Error Occured and the application was created sucesfully and i found te error and updated the database and migrations
+now i saved the command and commited it to Git....
+Let us build it again and run it !
