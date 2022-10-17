@@ -65,3 +65,9 @@ Editing the application .cs file whihc was very important
 run the code
 upload it to the server and my github repository....
 Save the content..
+
+1:51 AM
+Creating the AboutUs file as per Proffessor and included the factors whihc were needed for my new web application
+now after creating the file i amd going to take some usefull images from the google as per the free common license...\
+updating the code and rebuilding......
+commit to the github!
