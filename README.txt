@@ -57,4 +57,11 @@ everything nice!
 
 12:17 AM
 edited the Index.cshtml file as per the requirement of the link provided
-lets run the code and then save it and commmit it to repository.....
+lets run the code and then save it and commit it to repository.....
+
+1:30 AM ------------------------------------------------
+Updating the migratings and added the validation of all the fields applied in the table.
+Editing the application .cs file whihc was very important
+run the code
+upload it to the server and my github repository....
+Save the content..

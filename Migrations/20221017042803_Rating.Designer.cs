@@ -4,14 +4,16 @@ using Audio_Speaker.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Audio_Speaker.Migrations
 {
     [DbContext(typeof(Audio_SpeakerContext))]
-    partial class Audio_SpeakerContextModelSnapshot : ModelSnapshot
+    [Migration("20221017042803_Rating")]
+    partial class Rating
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -29,7 +29,7 @@ namespace Audio_Speaker
         {
             services.AddDbContext<ApplicationDbContext>(options =>
               //  options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-              options.UseSqlServer(Configuration.GetConnectionString("AudioSpeakerContext")));
+              options.UseSqlServer(Configuration.GetConnectionString("Audio_SpeakerContext")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();

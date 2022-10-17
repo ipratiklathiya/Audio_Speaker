@@ -29,7 +29,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "Dolby Atmos",
                         Company = "JBL Private Limited",
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Rating = 4.0M
                     },
 
                     new Speaker
@@ -38,7 +39,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "Bluetooth",
                         Company = "Sony Enterprise",
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Rating = 5.0M
                     },
 
                     new Speaker
@@ -47,7 +49,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "USB Port",
                         Company = "Panasonic Verdict",
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Rating = 4.5M
                     },
 
                     new Speaker
@@ -56,7 +59,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "USB, Bluetooth",
                         Company = "Boat India",
-                        Price = 8.99M
+                        Price = 8.99M,
+                        Rating = 3.5M
                     },
                     new Speaker
                     {
@@ -64,7 +68,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "USB Port",
                         Company = "Z Zebra",
-                        Price = 9.99M
+                        Price = 9.99M,
+                        Rating = 5.0M
                     },
                     new Speaker
                     {
@@ -72,7 +77,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "Speaker",
                         Company = "Amazon",
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Rating = 4.0M
                     },
                     new Speaker
                     {
@@ -80,7 +86,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "Bluetooth",
                         Company = "Marshalls",
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Rating = 4.5M
                     },
                     new Speaker
                     {
@@ -88,7 +95,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "USB",
                         Company = "Light Works",
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Rating = 4.1M
                     },
                     new Speaker
                     {
@@ -96,7 +104,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "C type Cable",
                         Company = "Noise Limited",
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Rating = 3.0M
                     },
                     new Speaker
                     {
@@ -104,7 +113,8 @@ namespace Audio_Speaker.Models
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Type = "Red USB",
                         Company = "Zebra Electronics",
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Rating = 2.0M
                     }
                 );
                 context.SaveChanges();
