@@ -71,3 +71,11 @@ Creating the AboutUs file as per Proffessor and included the factors whihc were 
 now after creating the file i amd going to take some usefull images from the google as per the free common license...\
 updating the code and rebuilding......
 commit to the github!
+
+2:21 AM
+Edited the readme text file, index file and the home page which was created by me before for the more upadaes,
+Also included the images taken from the Internet... and included them in css folder and managed the layout using the css file
+- edit site.css
+- update Index.cshtml
+- run the code and rebuild the program
+- commit the finall code to github....
