@@ -46,3 +46,15 @@ the search filed editing few file like Index.cshtml
 run command....
 update it to github and save the content
 no errors found
+
+
+11:58 PM
+- running the code up to date
+added the search button for the company filed
+write the code and run it
+after it sucessfully execute commit it to git.... 
+everything nice!
+
+12:17 AM
+edited the Index.cshtml file as per the requirement of the link provided
+lets run the code and then save it and commmit it to repository.....

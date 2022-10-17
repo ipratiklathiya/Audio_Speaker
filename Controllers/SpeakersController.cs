@@ -14,23 +14,41 @@ namespace Audio_Speaker.Controllers
     {
         private readonly Audio_SpeakerContext _context;
 
+        public string SpeakerCompany { get; private set; }
+
         public SpeakersController(Audio_SpeakerContext context)
         {
             _context = context;
         }
 
         // GET: Speakers
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string SpeakerCompany, string searchString)
         {
-            var Speakers = from m in _context.Speaker
-                         select m;
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.Speaker
+                                            orderby m.Company
+                                            select m.Company;
 
-            if (!String.IsNullOrEmpty(searchString))
+            var Speakers = from m in _context.Speaker
+                           select m;
+
+            if (!string.IsNullOrEmpty(searchString))
             {
                 Speakers = Speakers.Where(s => s.Name.Contains(searchString));
             }
 
-            return View(await Speakers.ToListAsync());
+            if (!string.IsNullOrEmpty(SpeakerCompany))
+            {
+                Speakers = Speakers.Where(x => x.Company == SpeakerCompany);
+            }
+
+            var AudioSpeakerVM = new AudioSpeakerViewModel
+            {
+                Company = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Speakers = await Speakers.ToListAsync()
+            };
+
+            return View(AudioSpeakerVM);
         }
 
         // GET: Speakers/Details/5
